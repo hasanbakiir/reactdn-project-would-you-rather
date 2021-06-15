@@ -1,0 +1,25 @@
+{
+  "short_name": "React-Redux App",
+  "name": "Create React-Redux App",
+  "icons": [
+    {
+      "src": "reactfavicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo111.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo112.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

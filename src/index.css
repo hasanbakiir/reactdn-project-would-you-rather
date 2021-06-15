@@ -1,0 +1,94 @@
+html, body {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(black, transparent);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+  padding: 0 6px;
+}
+
+/* home page tab highlight */
+
+.tab .ui.tabular.menu .item {
+  flex: 1 1 auto;
+  background: none #f6f6f6;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-width: 1px;
+  border-color: #d4d4d5;
+}
+
+.tab .ui.tabular.menu .active.item {
+  background: none #fff;
+}
+
+/* poll quesion page */
+
+.ui.radio.checkbox {
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+/* poll results page */
+
+i.compact.icon {
+  margin: 0 .5em 0 0!important;
+}
+
+.ui.ribbon.label.vote {
+  margin-bottom: 8px;
+}
+
+/* login page row spacing */
+
+.footer {
+  text-align: center;
+  font-size: .85em;
+
+}
+
+.ui.grid>.row.login:first-of-type {
+  padding-top: 1em;
+}
+
+.ui.grid>.row.login:last-of-type {
+  padding-bottom: 1em;
+}
+
+.ui.grid>.row.login {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background: radial-gradient(black, transparent);
+}
+
+.ui.form .field>.selection.dropdown {
+  width: 100%;
+  background: linear-gradient(rgb(21, 200, 255),rgb(4, 78, 97), white);
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+.ui.form .disabled.field, .ui.form .disabled.fields .field, .ui.form .field :disabled {
+  pointer-events: none;
+  opacity: .45;
+  background: black;
+  border-block-style: revert;
+}
+
+.ui.menu:last-child {
+  
+  background: #c4fcff;
+}
